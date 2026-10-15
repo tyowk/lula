@@ -1,0 +1,16 @@
+{
+  "errors": {
+    "unknownCommand": "I don't recognize the command `{command}`.",
+    "commandFailed": "That command failed. Please try again later."
+  },
+  "commands": {
+    "slashUnavailable": "This application command is not available.",
+    "guildOnly": "This command can only be used in a server.",
+    "ownerOnly": "This command is restricted to the bot owner.",
+    "missingPermissions": "You don't have the required permissions to use this command.",
+    "cooldown": "Please wait {seconds}s before using this command again."
+  },
+  "interactions": {
+    "failed": "This interaction could not be completed. Please try again."
+  }
+}

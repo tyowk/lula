@@ -1,0 +1,11 @@
+node_modules/
+.env
+data/*.db
+data/*.db-*
+dist/
+.replit
+.agents/
+bun.lock
+package-lock.json
+.upm/
+.config/
