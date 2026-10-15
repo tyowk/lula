@@ -1,18 +1,20 @@
 {
-  "scripts": {
-    "dev": "bun --watch src/index.ts",
-    "start": "bun src/index.ts",
-    "register": "bun src/commands.ts",
-    "check": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@tursodatabase/database": "^0.8.3",
-    "chalk": "4.1.2",
-    "discord.js": "^14.27.0",
-    "dotenv": "^18.0.8"
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.5",
-    "typescript": "^7.0.2"
-  }
+	"scripts": {
+		"dev": "bun --watch src/index.ts",
+		"start": "bun src/index.ts",
+		"register": "bun src/commands.ts",
+		"check": "tsc --noEmit",
+		"format": "prettier -w src *.json"
+	},
+	"dependencies": {
+		"@tursodatabase/database": "^0.8.3",
+		"chalk": "4.1.2",
+		"discord.js": "^14.27.0",
+		"dotenv": "^18.0.8"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"prettier": "^3.9.10",
+		"typescript": "^7.0.2"
+	}
 }

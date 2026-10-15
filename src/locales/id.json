@@ -1,16 +1,16 @@
 {
-  "errors": {
-    "unknownCommand": "Saya tidak mengenali perintah `{command}`.",
-    "commandFailed": "Perintah tersebut gagal. Silakan coba lagi nanti."
-  },
-  "commands": {
-    "slashUnavailable": "Perintah aplikasi ini tidak tersedia.",
-    "guildOnly": "Perintah ini hanya dapat digunakan di server.",
-    "ownerOnly": "Perintah ini hanya dapat digunakan oleh pemilik bot.",
-    "missingPermissions": "Kamu tidak memiliki izin yang diperlukan untuk menggunakan perintah ini.",
-    "cooldown": "Tunggu {seconds} detik sebelum menggunakan perintah ini lagi."
-  },
-  "interactions": {
-    "failed": "Interaksi ini tidak dapat diselesaikan. Silakan coba lagi."
-  }
+	"errors": {
+		"unknownCommand": "Saya tidak mengenali perintah `{command}`.",
+		"commandFailed": "Perintah tersebut gagal. Silakan coba lagi nanti."
+	},
+	"commands": {
+		"slashUnavailable": "Perintah aplikasi ini tidak tersedia.",
+		"guildOnly": "Perintah ini hanya dapat digunakan di server.",
+		"ownerOnly": "Perintah ini hanya dapat digunakan oleh pemilik bot.",
+		"missingPermissions": "Kamu tidak memiliki izin yang diperlukan untuk menggunakan perintah ini.",
+		"cooldown": "Tunggu {seconds} detik sebelum menggunakan perintah ini lagi."
+	},
+	"interactions": {
+		"failed": "Interaksi ini tidak dapat diselesaikan. Silakan coba lagi."
+	}
 }
